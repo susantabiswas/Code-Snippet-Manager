@@ -1,0 +1,12 @@
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\bin\Debug\Code Snippet Manager.exe.config
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\bin\Debug\Code Snippet Manager.exe
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\bin\Debug\Code Snippet Manager.pdb
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code Snippet Manager.csprojResolveAssemblyReference.cache
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form1.resources
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Properties.Resources.resources
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code Snippet Manager.csproj.GenerateResource.Cache
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code Snippet Manager.exe
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code Snippet Manager.pdb
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form2.resources
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\bin\Debug\System.Data.SQLite.dll
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form3.resources
