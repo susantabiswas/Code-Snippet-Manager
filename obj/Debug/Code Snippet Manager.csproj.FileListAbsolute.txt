@@ -10,3 +10,5 @@ C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code Snippet
 C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form2.resources
 C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\bin\Debug\System.Data.SQLite.dll
 C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form3.resources
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form4.resources
+C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form5.resources

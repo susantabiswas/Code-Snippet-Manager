@@ -52,7 +52,7 @@
             // search_b
             // 
             this.search_b.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search_b.Location = new System.Drawing.Point(274, 48);
+            this.search_b.Location = new System.Drawing.Point(288, 45);
             this.search_b.Name = "search_b";
             this.search_b.Size = new System.Drawing.Size(75, 37);
             this.search_b.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             this.snippet_name_lbl.AutoSize = true;
             this.snippet_name_lbl.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.snippet_name_lbl.Location = new System.Drawing.Point(23, 57);
+            this.snippet_name_lbl.Location = new System.Drawing.Point(7, 56);
             this.snippet_name_lbl.Name = "snippet_name_lbl";
             this.snippet_name_lbl.Size = new System.Drawing.Size(125, 28);
             this.snippet_name_lbl.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             this.search_result_lbl.AutoSize = true;
             this.search_result_lbl.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search_result_lbl.Location = new System.Drawing.Point(7, 111);
+            this.search_result_lbl.Location = new System.Drawing.Point(5, 117);
             this.search_result_lbl.Name = "search_result_lbl";
             this.search_result_lbl.Size = new System.Drawing.Size(127, 28);
             this.search_result_lbl.TabIndex = 3;
@@ -83,15 +83,16 @@
             // search_result_listbox
             // 
             this.search_result_listbox.FormattingEnabled = true;
-            this.search_result_listbox.Location = new System.Drawing.Point(12, 142);
+            this.search_result_listbox.Location = new System.Drawing.Point(10, 157);
             this.search_result_listbox.Name = "search_result_listbox";
-            this.search_result_listbox.Size = new System.Drawing.Size(110, 329);
+            this.search_result_listbox.Size = new System.Drawing.Size(110, 303);
             this.search_result_listbox.TabIndex = 4;
+            this.search_result_listbox.Click += new System.EventHandler(this.search_result_listbox_Click);
             // 
             // snippetname_txt
             // 
             this.snippetname_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.snippetname_txt.Location = new System.Drawing.Point(154, 61);
+            this.snippetname_txt.Location = new System.Drawing.Point(138, 60);
             this.snippetname_txt.Name = "snippetname_txt";
             this.snippetname_txt.Size = new System.Drawing.Size(100, 22);
             this.snippetname_txt.TabIndex = 5;
@@ -99,19 +100,22 @@
             // copy_clipboard_b
             // 
             this.copy_clipboard_b.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold);
-            this.copy_clipboard_b.Location = new System.Drawing.Point(137, 151);
+            this.copy_clipboard_b.Location = new System.Drawing.Point(292, 107);
             this.copy_clipboard_b.Name = "copy_clipboard_b";
-            this.copy_clipboard_b.Size = new System.Drawing.Size(75, 49);
+            this.copy_clipboard_b.Size = new System.Drawing.Size(151, 49);
             this.copy_clipboard_b.TabIndex = 6;
-            this.copy_clipboard_b.Text = "Copy ";
+            this.copy_clipboard_b.Text = "Copy Snippet";
             this.copy_clipboard_b.UseVisualStyleBackColor = true;
             this.copy_clipboard_b.Click += new System.EventHandler(this.copy_clipboard_b_Click);
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(128, 215);
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.Location = new System.Drawing.Point(134, 162);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(355, 253);
+            this.richTextBox1.Size = new System.Drawing.Size(353, 298);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
             // 

@@ -11,7 +11,8 @@ namespace Code_Snippet_Manager
             InitializeComponent();
         }
 
-        //save button
+        
+        #region SAVE button
         private void button1_Click(object sender, EventArgs e)
         {
             //check whether the title is empty or not
@@ -75,13 +76,23 @@ namespace Code_Snippet_Manager
             Conn.Open();
             cmd.ExecuteNonQuery();
             Conn.Close();
+            
 
-        }
+        } 
+        #endregion
 
         //home button
         private void button2_Click(object sender, EventArgs e)
         {
             this.Dispose();
         }
+        #region NEW button
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            snippet_title_txt.Clear();
+            code_richtxt.Clear();
+        } 
+        #endregion
     }
 }
