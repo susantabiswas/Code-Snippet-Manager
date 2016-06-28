@@ -56,9 +56,9 @@
             // save_b
             // 
             this.save_b.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.save_b.Location = new System.Drawing.Point(360, 51);
+            this.save_b.Location = new System.Drawing.Point(353, 41);
             this.save_b.Name = "save_b";
-            this.save_b.Size = new System.Drawing.Size(75, 41);
+            this.save_b.Size = new System.Drawing.Size(75, 48);
             this.save_b.TabIndex = 2;
             this.save_b.Text = "Save";
             this.save_b.UseVisualStyleBackColor = true;
@@ -88,12 +88,12 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(465, 52);
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(457, 41);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 37);
+            this.button1.Size = new System.Drawing.Size(72, 48);
             this.button1.TabIndex = 5;
-            this.button1.Text = "New";
+            this.button1.Text = "New ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 

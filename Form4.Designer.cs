@@ -35,6 +35,7 @@
             this.search_result_listbox = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.preview_snippet_b = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // title_lbl
@@ -93,6 +94,7 @@
             this.search_result_listbox.Name = "search_result_listbox";
             this.search_result_listbox.Size = new System.Drawing.Size(113, 160);
             this.search_result_listbox.TabIndex = 4;
+            this.search_result_listbox.Click += new System.EventHandler(this.search_result_listbox_Click);
             // 
             // button1
             // 
@@ -114,17 +116,29 @@
             this.preview_snippet_b.Font = new System.Drawing.Font("Segoe Print", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.preview_snippet_b.Location = new System.Drawing.Point(12, 151);
             this.preview_snippet_b.Name = "preview_snippet_b";
-            this.preview_snippet_b.Size = new System.Drawing.Size(94, 61);
+            this.preview_snippet_b.Size = new System.Drawing.Size(112, 61);
             this.preview_snippet_b.TabIndex = 6;
-            this.preview_snippet_b.Text = "Preview Snippet";
+            this.preview_snippet_b.Text = "Preview Full Screen";
             this.preview_snippet_b.UseVisualStyleBackColor = true;
             this.preview_snippet_b.Click += new System.EventHandler(this.preview_snippet_b_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.Location = new System.Drawing.Point(12, 234);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(359, 238);
+            this.richTextBox1.TabIndex = 7;
+            this.richTextBox1.Text = "";
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 484);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.preview_snippet_b);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.search_result_listbox);
@@ -148,5 +162,6 @@
         private System.Windows.Forms.ListBox search_result_listbox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button preview_snippet_b;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

@@ -115,5 +115,31 @@ namespace Code_Snippet_Manager
             Form5 f5 = new Form5(search_result_listbox.SelectedItem.ToString());
             f5.ShowDialog();
         }
+
+        /// <summary>
+        /// for displaying the code snippet of the currently selected title from the list box
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void search_result_listbox_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection Conn = new SQLiteConnection("Data Source=Snippetdb.sqlite;Version=3;");
+            SQLiteCommand cmd = new SQLiteCommand("SELECT* FROM snippet WHERE (Name = @Name)");
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.Connection = Conn;
+            cmd.Parameters.AddWithValue("@Name", search_result_listbox.SelectedItem.ToString());
+
+            Conn.Open();
+            cmd.ExecuteNonQuery();
+
+            SQLiteDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                //giving rich text box its contents
+                richTextBox1.Text = reader["Code"].ToString();
+
+            }
+            Conn.Close();
+        }
     }
 }
