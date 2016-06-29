@@ -35,7 +35,7 @@ namespace Code_Snippet_Manager
                 Conn.Close();
 
                 //update the list box
-                search_b_Click(sender, e);
+                search_result_listbox.Items.Remove(search_result_listbox.SelectedItem);
 
             }
             else
@@ -141,5 +141,42 @@ namespace Code_Snippet_Manager
             }
             Conn.Close();
         }
+
+        #region ALL SNIPPETS button
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection Conn;
+            SQLiteCommand cmd;
+
+            //check whether the database already exist in the target machine
+            if (System.IO.File.Exists("Snippetdb.sqlite") == false)
+            {
+
+                MessageBox.Show("No Snippets to show !");
+                return;
+            }
+
+            //clear the list box
+            search_result_listbox.Items.Clear();
+            Conn = new SQLiteConnection("Data Source=Snippetdb.sqlite;Version=3;");
+            cmd = new SQLiteCommand("SELECT* FROM snippet");
+         // cmd.CommandType = System.Data.CommandType.Text;
+            cmd.Connection = Conn;
+            
+
+            Conn.Open();
+            cmd.ExecuteNonQuery();
+
+            SQLiteDataReader reader = cmd.ExecuteReader();
+            if (reader.Read() == false)
+                MessageBox.Show("No results Found!!!");
+            while (reader.Read())
+            {
+                search_result_listbox.Items.Add(reader["Name"]);
+            }
+
+            Conn.Close();
+        } 
+        #endregion
     }
 }

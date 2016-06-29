@@ -12,4 +12,18 @@ C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\bin\Debug\System.Data.
 C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form3.resources
 C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form4.resources
 C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form5.resources
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\bin\Debug\Code Snippet Manager.exe.config
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code Snippet Manager.exe
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code Snippet Manager.pdb
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\bin\Debug\Code Snippet Manager.exe
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\bin\Debug\Code Snippet Manager.pdb
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code Snippet Manager.csprojResolveAssemblyReference.cache
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code_Snippet_Manager.Form1.resources
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code_Snippet_Manager.Form2.resources
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code_Snippet_Manager.Form3.resources
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code_Snippet_Manager.Form4.resources
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code_Snippet_Manager.Form5.resources
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code_Snippet_Manager.Properties.Resources.resources
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code Snippet Manager.csproj.GenerateResource.Cache
+C:\Users\SUSANTA\Downloads\Code-Snippet-Manager-master\obj\Debug\Code_Snippet_Manager.Form6.resources
 C:\Users\SUSANTA\Desktop\C# projects\Code Snippet Manager\obj\Debug\Code_Snippet_Manager.Form6.resources
