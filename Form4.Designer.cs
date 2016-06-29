@@ -90,10 +90,12 @@
             // 
             this.search_result_listbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.search_result_listbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_result_listbox.FormattingEnabled = true;
+            this.search_result_listbox.ItemHeight = 16;
             this.search_result_listbox.Location = new System.Drawing.Point(258, 52);
             this.search_result_listbox.Name = "search_result_listbox";
-            this.search_result_listbox.Size = new System.Drawing.Size(113, 160);
+            this.search_result_listbox.Size = new System.Drawing.Size(113, 148);
             this.search_result_listbox.TabIndex = 4;
             this.search_result_listbox.Click += new System.EventHandler(this.search_result_listbox_Click);
             // 
@@ -128,6 +130,7 @@
             this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(12, 234);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(359, 238);

@@ -240,6 +240,7 @@ namespace Code_Snippet_Manager
         //Close Tab button,closes the currently selected Tab
         private void closetabb_Click(object sender, EventArgs e)
         {
+           
             try
             {
                 TabPage CurrentTab = tabControl1.SelectedTab;
@@ -250,6 +251,11 @@ namespace Code_Snippet_Manager
 
                 MessageBox.Show("No Open Tabs to Close");
             }
+        }
+
+        private void fontOptionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
         }
     }
 }

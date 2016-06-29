@@ -92,7 +92,12 @@ namespace Code_Snippet_Manager
         {
             snippet_title_txt.Clear();
             code_richtxt.Clear();
-        } 
+        }
         #endregion
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+        }
     }
 }

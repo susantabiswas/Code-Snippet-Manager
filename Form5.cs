@@ -30,5 +30,10 @@ namespace Code_Snippet_Manager
 
             Conn.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+        }
     }
 }

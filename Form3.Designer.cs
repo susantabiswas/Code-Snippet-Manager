@@ -36,6 +36,8 @@
             this.snippetname_txt = new System.Windows.Forms.TextBox();
             this.copy_clipboard_b = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.SuspendLayout();
             // 
             // home_b
@@ -52,7 +54,7 @@
             // search_b
             // 
             this.search_b.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search_b.Location = new System.Drawing.Point(288, 45);
+            this.search_b.Location = new System.Drawing.Point(269, 52);
             this.search_b.Name = "search_b";
             this.search_b.Size = new System.Drawing.Size(75, 37);
             this.search_b.TabIndex = 1;
@@ -82,10 +84,12 @@
             // 
             // search_result_listbox
             // 
+            this.search_result_listbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_result_listbox.FormattingEnabled = true;
+            this.search_result_listbox.ItemHeight = 16;
             this.search_result_listbox.Location = new System.Drawing.Point(10, 157);
             this.search_result_listbox.Name = "search_result_listbox";
-            this.search_result_listbox.Size = new System.Drawing.Size(110, 303);
+            this.search_result_listbox.Size = new System.Drawing.Size(110, 292);
             this.search_result_listbox.TabIndex = 4;
             this.search_result_listbox.Click += new System.EventHandler(this.search_result_listbox_Click);
             // 
@@ -100,7 +104,7 @@
             // copy_clipboard_b
             // 
             this.copy_clipboard_b.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold);
-            this.copy_clipboard_b.Location = new System.Drawing.Point(292, 107);
+            this.copy_clipboard_b.Location = new System.Drawing.Point(138, 107);
             this.copy_clipboard_b.Name = "copy_clipboard_b";
             this.copy_clipboard_b.Size = new System.Drawing.Size(151, 49);
             this.copy_clipboard_b.TabIndex = 6;
@@ -113,17 +117,30 @@
             this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(134, 162);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(353, 298);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe Print", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(360, 116);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 40);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Font Settings";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(495, 480);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.copy_clipboard_b);
             this.Controls.Add(this.snippetname_txt);
@@ -149,5 +166,7 @@
         private System.Windows.Forms.TextBox snippetname_txt;
         private System.Windows.Forms.Button copy_clipboard_b;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.FontDialog fontDialog1;
     }
 }

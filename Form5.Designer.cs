@@ -30,6 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -54,15 +56,27 @@
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe Print", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(445, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(149, 35);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Font Settings";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(658, 577);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form5";
             this.Text = "Form5";
             this.Load += new System.EventHandler(this.Form5_Load);
@@ -75,5 +89,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.Button button1;
     }
 }
