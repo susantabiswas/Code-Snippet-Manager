@@ -28,5 +28,11 @@ namespace Code_Snippet_Manager
             Form4 f4 = new Form4();
             f4.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form6 f6 = new Form6();
+            f6.ShowDialog();
+        }
     }
 }
